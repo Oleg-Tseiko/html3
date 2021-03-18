@@ -48,6 +48,10 @@ footer {
     }
   }
 }
+// input:required:invalid, input:focus:invalid {
+//   /* insert your own styles for invalid form input */
+//   border: 1px red solid;
+// }
 .modal {
   display: none;
   position: fixed;
@@ -78,6 +82,11 @@ footer {
     width: 340px;
     border-radius: 0;
     border: 1px #c3c3c3 solid;
+    &:focus {
+      border-radius: 0;
+      border: 1px #777 solid;
+      outline: 0;
+    }
   }
   textarea {
     margin: 0 auto;
@@ -85,6 +94,11 @@ footer {
     display: block;
     border-radius: 0;
     border: 1px #c3c3c3 solid;
+    &:focus {
+      border-radius: 0;
+      border: 1px #777 solid;
+      outline: 0;
+    }
   }
   button {
     display: block;
@@ -97,6 +111,11 @@ footer {
     border: none;
     box-shadow: none;
     font-weight: 700;
+    &:hover {
+      cursor: pointer;
+      background-color: #999;
+      transition: 0.4s;
+    }
   }
 }
 
