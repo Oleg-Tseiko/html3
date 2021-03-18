@@ -9,11 +9,17 @@ body {
   display:flex;
   flex-direction:column;
 }
-body, p, a, h2, h1 {
+body.modal-open {
+    overflow: hidden;
+}
+body, p, a, h2, h1, label {
   font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   line-height: 22px;
   margin: 0;
+}
+a:hover {
+  color: $secondary_font_color;
 }
 ul {
   li {

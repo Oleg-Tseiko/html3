@@ -2,7 +2,7 @@ header {
   background-color: $secondary_color;
   overflow: auto;
   min-width: 1000px;
-  padding-bottom: 57px;
+  padding-bottom: 66px;
   min-height: 171px;
   .tele_number {
      font-family:"Open Sans Condensed Light";
@@ -29,6 +29,7 @@ header {
         color: $primary_color;
         font-size: 30px;
         letter-spacing: 2px;
+        font-weight: 700;
       }
       p {
         color: $primary_font_color;
@@ -47,7 +48,7 @@ header {
   .header_to_right {
     float: right;
     text-align: right;
-    margin: 52px 0px 0 0px;
+    margin: 51px -16px 0 0px;
     p {
       &:nth-child(2) {
          margin: 16px 0 0 0;
@@ -73,14 +74,14 @@ menu {
       display: inline-block;
       text-align: center;
       white-space: nowrap;
-      margin: 28px 0 25px 0;
+      margin: 25px 0 27px 0;
       border-right: 2px $secondary_font_color solid;
       a {
         color: $secondary_font_color;
         text-decoration: none;
         font-size: 30px;
         text-align: center;
-        padding: 0px 20px 0 18px;
+        padding: 0px 15px 0 18px;
         letter-spacing: 0.75px;
         &:hover {
           text-decoration: underline;
