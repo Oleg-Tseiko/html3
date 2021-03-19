@@ -67,7 +67,8 @@ menu {
   ul {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
     li {

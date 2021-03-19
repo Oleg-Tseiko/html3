@@ -88,6 +88,23 @@ footer {
       outline: 0;
     }
   }
+  .wrong_inp {
+    border: 1px solid #ff8383;
+    box-shadow: inset 0 0 13px rgba(228, 106, 106, 0.75);
+  }
+  .closed {
+    display: none;
+  }
+  .sended {
+    text-align: center;
+    font-size: 18px;
+    color: green;
+    display: block;
+  }
+  .wrong_inp::placeholder {
+   color: #ff8383;
+   font-style: italic;
+  }
   textarea {
     margin: 0 auto;
     width: 339px;
@@ -111,6 +128,7 @@ footer {
     border: none;
     box-shadow: none;
     font-weight: 700;
+    outline: none;
     &:hover {
       cursor: pointer;
       background-color: #999;
